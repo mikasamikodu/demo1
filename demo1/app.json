@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/demo1/demo1",
+    "pages/demo2/demo2",
+    "pages/demo21/demo21",
+    "pages/demo3/demo3"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FFF",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "首页",
+    "backgroundColor": "#FFF",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#00BFFF",
+    "backgroundColor": "#FFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/demo1/demo1",
+        "text": "首页",
+        "iconPath": "static/images/tabbar/home.jpg",
+        "selectedIconPath": "static/images/tabbar/homeSelect.jpg"
+      },
+      {
+        "pagePath": "pages/demo2/demo2",
+        "text": "面瘫知识",
+        "iconPath": "static/images/tabbar/demo2.jpg",
+        "selectedIconPath": "static/images/tabbar/demo2Select.jpg"
+      },
+      {
+        "pagePath": "pages/demo3/demo3",
+        "text": "来院须知",
+        "iconPath": "static/images/tabbar/demo3.jpg",
+        "selectedIconPath": "static/images/tabbar/demo3Select.jpg"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

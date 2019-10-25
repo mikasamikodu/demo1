@@ -1,0 +1,8 @@
+<!--pages/demo1/demo1.wxml-->
+<view class="container">
+    <view bindtap="btn" data-id='1'>王氏面瘫历史</view>
+    <view bindtap="btn" data-id='2'>王氏鼻塞药介绍</view>
+    <view bindtap="btn" data-id='3'>面瘫病因分析</view>
+    <view bindtap="btn" data-id='4'>如何预防面瘫</view>
+    <view bindtap="btn" data-id='5'>患面瘫后如何自我康复锻炼</view>
+</view>
