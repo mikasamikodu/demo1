@@ -1,4 +1,32 @@
 <!--pages/demo1/demo1.wxml-->
 <view class="container">
-
+    <view class="first">
+        <view class="search">
+            <icon type="search" size="20"></icon>
+            <input placeholder="在线问诊"></input>
+        </view>
+    </view>
+    <view>
+        <view class="border">
+            <view class="image1 image">
+                <image src="../../static/images/demo1/1.jpg"></image>
+            </view>
+            <view>快速问医生</view>
+            <button bindtap="consultation">去咨询</button>
+        </view>
+        <view class="border">
+            <view class="image2 image">
+                <image src="../../static/images/demo1/2.jpg"></image>
+            </view>
+            <view>医院概况</view>
+            <button bindtap="details">详情</button>
+        </view>
+        <view class="border">
+            <view class="image3 image">
+                <image src="../../static/images/demo1/3.jpg"></image>
+            </view>
+            <view>常见问题</view>
+            <button bindtap="commonProblem">去了解</button>
+        </view>
+    </view>
 </view>

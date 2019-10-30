@@ -1,8 +1,54 @@
 <!--pages/demo1/demo1.wxml-->
 <view class="container">
-    <view bindtap="btn" data-id='1'>王氏面瘫历史</view>
-    <view bindtap="btn" data-id='2'>王氏鼻塞药介绍</view>
-    <view bindtap="btn" data-id='3'>面瘫病因分析</view>
-    <view bindtap="btn" data-id='4'>如何预防面瘫</view>
-    <view bindtap="btn" data-id='5'>患面瘫后如何自我康复锻炼</view>
+    <view class="tabbar">
+        <view class="selected">全部</view>
+        <view>科普</view>
+    </view>
+    <view class="border">
+        <view bindtap="btn" data-id='1' class="first">
+            <view class="content">
+                <view>王氏面瘫历史</view>
+                <view>2019-10-29</view>
+            </view>
+            <view class="image">
+                <image src="../../static/images/demo2/1.jpg"></image>
+            </view>
+        </view>
+         <view bindtap="btn" data-id='2'  class="first">
+            <view class="content">
+                <view>王氏鼻塞药介绍</view>
+                <view>2019-10-29</view>
+            </view>
+            <view class="image">
+                <image src="../../static/images/demo2/2.jpg"></image>
+            </view>
+        </view>
+         <view bindtap="btn" data-id='3'  class="first">
+            <view class="content">
+                <view>面瘫病因分析</view>
+                <view>2019-10-29</view>
+            </view>
+            <view class="image">
+                <image src="../../static/images/demo2/3.jpg"></image>
+            </view>
+        </view>
+        <view bindtap="btn" data-id='4'  class="first">
+            <view class="content">
+                <view>如何预防面瘫</view>
+                <view>2019-10-29</view>
+            </view>
+            <view class="image">
+                <image src="../../static/images/demo2/4.jpg"></image>
+            </view>
+        </view>
+         <view bindtap="btn" data-id='5'  class="first">
+            <view class="content">
+                <view>患面瘫后如何自我康复锻炼</view>
+                <view>2019-10-29</view>
+            </view>
+            <view class="image">
+                <image src="../../static/images/demo2/4.jpg"></image>
+            </view>
+        </view>
+    </view>
 </view>

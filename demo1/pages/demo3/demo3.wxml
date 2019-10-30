@@ -1,2 +1,52 @@
-<!--pages/demo3/demo3.wxml-->
-<text>pages/demo3/demo3.wxml</text>
+<view class="container">
+    <view class="first">
+        <view class="search">
+            <icon type="search" size="20"></icon>
+            <input placeholder="在线问诊"></input>
+        </view>
+    </view>
+    <view class="second">
+        <view class="content">
+            <view>------------温馨提示------------</view> 
+            <text space="ensp">
+就诊时请携带
+    1、医保卡及身份证等有效证，
+    2、既往病史及相关影像资料。
+            </text>           
+        </view>
+        <view class="content">
+            <view>------------门诊时间------------</view> 
+            <text space="ensp">
+周一到周日
+	上午门诊：8：00-11:30
+	下午门诊：13:30-17:00
+            </text>           
+        </view>
+        <view class="content">
+            <view>------------咨询电话------------</view> 
+            <text space="ensp">
+    400-xxx-xxxx
+    151xxxx0672
+            </text>           
+        </view>
+        <view class="content">
+            <view>------------来院交通------------</view> 
+            <text space="ensp">
+医院地址：河北省石家庄市xxxx区xxxx路xxx号王氏面瘫
+交通路线：
+公交：地铁一号线xxxx站A口出转112公交车到xxx站下车前行100米路东
+自驾：xxx大街与xx路交叉口
+            </text>           
+        </view>
+        <view class="content">
+            <view>------------注意事项------------</view> 
+            <text space="ensp">
+为保障您的治疗，需要综合、全面了解您的情况，以免遗漏病情而延误诊治。您需要提前将您的情况详细列出，做好就医准备工作：
+　　1、将您的就医情况，如近期做过的体检报告、肝肾功能检查、门诊病历、住院病历等资料准备齐全；
+　　2、将您近期服用的药物（包括中药、西药）及保健品罗列清楚，因为在治疗过程中要考虑药物是否对证/症，以 及药物副作用。
+    3、将您的不适症状罗列清楚，将症状写在纸上，以免在就诊时遗漏；
+    4、特别提醒来院人员保管好所交押金，遗失不补。所造成的经济损失自己负责。
+            </text>           
+        </view>
+    </view>
+</view>

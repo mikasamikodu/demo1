@@ -1,18 +1,69 @@
 .container{
-  width: 100%;
-  height: 1200rpx;
-  white-space:pre-wrap;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.container view{
-    width : 90%;
-    height : 60rpx;
-    padding-left: 15rpx;
-    margin-bottom : 15rpx;
-    border : 4px solid rgb(126, 119, 119); 
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
+    background: rgb(244,244,244);
+    position: fixed;
+}
+.tabbar{
+    width: 100%;
+    height: 70rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #FFF;
+    padding-left: 30rpx;
+    margin-bottom: 20rpx;
+}
+.tabbar view{
+    height: 100%;
+    display: inline-block;
+    margin-right: 60rpx;
+}
+.selected{
+    color: rgb(25, 88, 224);
+    border-bottom: 2rpx solid  rgb(25, 88, 224);
+}
+
+.border{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+    background: #FFF;
+}
+.first{
+    width: 90%;
+    height: 150rpx;
+    display: flex;
+    flex-direction: row;
+    padding: 3% 0;
+    align-items: center;
+    border-bottom: 2rpx solid #EEE;
+}
+.content{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content :nth-child(1){
+    font-size: 30rpx;
+}
+.content :nth-child(2){
+    font-size: 20rpx;
+    color: #ccc;
+}
+.image{
+    width: 25%;
+    height: 100%;
+    display: flex;
     justify-content: center;
+    align-items: center;
+}
+.image image{
+    width: 150rpx;
+    height: 120rpx;
 }

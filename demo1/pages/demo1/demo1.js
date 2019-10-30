@@ -8,7 +8,23 @@ Page({
     
   },
 
+  consultation: function(){
+      wx.switchTab({
+          url: '../demo4/demo4',
+      })
+  },
 
+    details: function () {
+        wx.navigateTo({
+            url: '../demo21/demo21?id=' + 1,
+        })
+    },
+
+    commonProblem:function(){
+        wx.switchTab({
+            url: '../demo2/demo2',
+        })
+    },
 
   /**
    * 生命周期函数--监听页面加载

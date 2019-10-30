@@ -1,9 +1,10 @@
 {
   "pages": [
+    "pages/demo3/demo3",
+    "pages/demo4/demo4",
     "pages/demo1/demo1",
     "pages/demo2/demo2",
-    "pages/demo21/demo21",
-    "pages/demo3/demo3"
+    "pages/demo21/demo21"
   ],
   "window": {
     "navigationBarBackgroundColor": "#FFF",
@@ -23,6 +24,12 @@
         "text": "首页",
         "iconPath": "static/images/tabbar/home.jpg",
         "selectedIconPath": "static/images/tabbar/homeSelect.jpg"
+      },
+      {
+        "pagePath": "pages/demo4/demo4",
+        "text": "找医生",
+        "iconPath": "static/images/tabbar/demo4.jpg",
+        "selectedIconPath": "static/images/tabbar/demo4.jpg"
       },
       {
         "pagePath": "pages/demo2/demo2",
